@@ -36,7 +36,7 @@
 
 11) NOAA-GFDL CM2-O Coupled Climate Model Simulations. LEAP Data Catalog. Columbia University. Available at: https://catalog.leap.columbia.edu/feedstock/noaagfdl-cm2o-coupled-climate-model-simulations.
 Griffies, S. (2015). A handbook for the GFDL CM2-O model suite.
-> Methods Step 1: Global model input features 
+> Methods Step 1: Global model output for use as input features in ML parameterization
    
 12) Clayson, Carol Anne; Brown, Jeremiah; and NOAA CDR Program (2016). NOAA Climate Data Record Ocean Surface Bundle (OSB) Climate Data Record (CDR) of Ocean Heat Fluxes, Version 2. NOAA National Center for Environmental Information. doi:doi:10.7289/V59K4885 [November 2024].
 > Methods Step 1: Data to create mapping of global sensible and latent heat fluxes. ***Note that in actual research workflow, these fluxes are calculated using bulk parameterizations. Citation is for dataset used to create image on poster.***
@@ -68,7 +68,7 @@ Griffies, S. (2015). A handbook for the GFDL CM2-O model suite.
 > Andreas Bulk Parameterization
 
 20) Bourras, D., Reverdin, G., Caniaux, G., & Belamari, S. (2007). A Nonlinear Statistical Model of Turbulent Air–Sea Fluxes. Monthly Weather Review, 135(3), 1077–1089. https://doi.org/10.1175/MWR3335.1
-> Common value ranges for fluxes
+> Common value ranges for fluxes for context on RMSE in Figure 2
 - > "90% of the fluxes in the validation dataset are within smaller limits: 0 to 0.3 N/m2 for 𝛕, -20 to 40 W/m2 for Hs, and -10 to 150 W/m2 for LE." (Bourras et al 2007)
 
 
