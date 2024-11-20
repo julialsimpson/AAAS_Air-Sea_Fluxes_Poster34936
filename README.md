@@ -1,6 +1,6 @@
 # References
 
-^1 Bogdanoff, A. (2024, July 10). Through the looking-glass of the sea surface. Woods Hole Oceanographic Institution. https://www.whoi.edu/oceanus/feature/through-the-looking-glass-of-the-sea-surface/ 
+^1^ Bogdanoff, A. (2024, July 10). Through the looking-glass of the sea surface. Woods Hole Oceanographic Institution. https://www.whoi.edu/oceanus/feature/through-the-looking-glass-of-the-sea-surface/ 
 - Figure 1: Photo Credit
 
 2) Fairall, C. W., Bradley, E. F., Hare, J. E., Grachev, A. A., & Edson, J. B. (2003). Bulk Parameterization of Air–Sea Fluxes: Updates and Verification for the COARE Algorithm. Journal of Climate, 16(4), 571–591. https://doi.org/10.1175/1520-0442(2003)016<0571:BPOASF>2.0.CO;2
