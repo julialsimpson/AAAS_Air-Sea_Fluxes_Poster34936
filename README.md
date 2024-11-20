@@ -39,7 +39,7 @@ Griffies, S. (2015). A handbook for the GFDL CM2-O model suite.
 > Methods Step 1: Global model input features 
    
 12) Clayson, Carol Anne; Brown, Jeremiah; and NOAA CDR Program (2016). NOAA Climate Data Record Ocean Surface Bundle (OSB) Climate Data Record (CDR) of Ocean Heat Fluxes, Version 2. NOAA National Center for Environmental Information. doi:doi:10.7289/V59K4885 [November 2024].
-> Methods Step 1: Data to create mapping of global sensible and latent heat fluxes
+> Methods Step 1: Data to create mapping of global sensible and latent heat fluxes. ***Note that in actual research workflow, these fluxes are calculated using bulk parameterizations. Citation is for dataset used to create image on poster.***
 
 13) NOAA Physical Sciences Laboratory. (2023). NOAA PSL FluxBase Synthesis: Ship-based flux measurements (Version 1.0) NOAA Physical Sciences Laboratory. Last modified May 24, 2023. Retrieved from https://downloads.psl.noaa.gov/psd3/cruises/PSL_FluxBase_synthesis/
 > Methods and Figures 2-4: *in situ* observational dataset
