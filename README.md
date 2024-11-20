@@ -34,37 +34,37 @@
 > Motivation: "Air-sea latent heat flux accounts for 87% of global surface evapotranspiration"
 - >"the ocean LHF evaporating water amount of 436.5 × 103 km3/y that accounts for ~87% of the total evapotranspiration on the Earth’s surface [Oki and Kanae, 2006]" (Tang et al 2024)
 
-6) NOAA-GFDL CM2-O Coupled Climate Model Simulations. LEAP Data Catalog. Columbia University. Available at: https://catalog.leap.columbia.edu/feedstock/noaagfdl-cm2o-coupled-climate-model-simulations.
+11) NOAA-GFDL CM2-O Coupled Climate Model Simulations. LEAP Data Catalog. Columbia University. Available at: https://catalog.leap.columbia.edu/feedstock/noaagfdl-cm2o-coupled-climate-model-simulations.
 Griffies, S. (2015). A handbook for the GFDL CM2-O model suite.
 > Methods Step 1: Global model input features 
    
-7) Clayson, Carol Anne; Brown, Jeremiah; and NOAA CDR Program (2016). NOAA Climate Data Record Ocean Surface Bundle (OSB) Climate Data Record (CDR) of Ocean Heat Fluxes, Version 2. NOAA National Center for Environmental Information. doi:doi:10.7289/V59K4885 [November 2024].
+12) Clayson, Carol Anne; Brown, Jeremiah; and NOAA CDR Program (2016). NOAA Climate Data Record Ocean Surface Bundle (OSB) Climate Data Record (CDR) of Ocean Heat Fluxes, Version 2. NOAA National Center for Environmental Information. doi:doi:10.7289/V59K4885 [November 2024].
 > Methods Step 1: Data to create mapping of global sensible and latent heat fluxes
 
-8) NOAA Physical Sciences Laboratory. (2023). NOAA PSL FluxBase Synthesis: Ship-based flux measurements (Version 1.0) NOAA Physical Sciences Laboratory. Last modified May 24, 2023. Retrieved from https://downloads.psl.noaa.gov/psd3/cruises/PSL_FluxBase_synthesis/
+13) NOAA Physical Sciences Laboratory. (2023). NOAA PSL FluxBase Synthesis: Ship-based flux measurements (Version 1.0) NOAA Physical Sciences Laboratory. Last modified May 24, 2023. Retrieved from https://downloads.psl.noaa.gov/psd3/cruises/PSL_FluxBase_synthesis/
 > Methods and Figures 2-4: *in situ* observational dataset
 
-9) Aerobulk & Aerobulk Python Wrapper
-Aerobulk: Brodeau, L., B. Barnier, S. Gulev, and C. Woods, 2016: Climatologically significant effects of some approximations in the bulk parameterizations of turbulent air-sea fluxes. J. Phys. Oceanogr., 47 (1), 5–28, 10.1175/JPO-D-16-0169.1. [ DOI ](http://dx.doi.org/10.1175/JPO-D-16-0169.1)
-Python Wrapper: Busecke, J. J. M., Martin, P. E., & Abernathey, R. P. (2024). aerobulk-python (v0.4.2). Zenodo. https://doi.org/10.5281/zenodo.11205116
-
-> Code to implement the below bulk parameterizations as shown in Results figures, cited separately as follows:
+14) Aerobulk: Brodeau, L., B. Barnier, S. Gulev, and C. Woods, 2016: Climatologically significant effects of some approximations in the bulk parameterizations of turbulent air-sea fluxes. J. Phys. Oceanogr., 47 (1), 5–28, 10.1175/JPO-D-16-0169.1. [ DOI ](http://dx.doi.org/10.1175/JPO-D-16-0169.1)
+> Aerobulk: Code to implement the below bulk parameterizations as shown in Results figures, cited separately as follows:
 > - COARE v3.0 (Fairall et al., 2003) (see Reference #2)
 > - COARE v3.6 (Edson et al., 2013)
 > - ECMWF (IFS (Cy40) documentation)
 > - ANDREAS (Andreas et al., 2015)
 > - NCAR (Large & Yeager 2004, 2009)
 
-10) Edson, J. B., Jampana, V., Weller, R. A., Bigorre, S. P., Plueddemann, A. J., Fairall, C. W., Miller, S. D., Mahrt, L., Vickers, D., & Hersbach, H. (2013). On the Exchange of Momentum over the Open Ocean. Journal of Physical Oceanography, 43(8), 1589–1610. https://doi.org/10.1175/JPO-D-12-0173.1
+15) Python Wrapper: Busecke, J. J. M., Martin, P. E., & Abernathey, R. P. (2024). aerobulk-python (v0.4.2). Zenodo. https://doi.org/10.5281/zenodo.11205116
+> Aerobulk Python Wrapper: Code to implement the below bulk parameterizations as shown in Results figures, cited separately as described above.
+
+16) Edson, J. B., Jampana, V., Weller, R. A., Bigorre, S. P., Plueddemann, A. J., Fairall, C. W., Miller, S. D., Mahrt, L., Vickers, D., & Hersbach, H. (2013). On the Exchange of Momentum over the Open Ocean. Journal of Physical Oceanography, 43(8), 1589–1610. https://doi.org/10.1175/JPO-D-12-0173.1
 > COARE 3.6 Bulk Parameterization
 
-11) ECMWF, (2014). IFS documentation—Cy40r1. Operational implementation 22 November 2013. Part IV: Physical processes. ECMWF, accessed November 2024. Available online at [ECMWF IFS Documentation CY40 Part IV](https://www.ecmwf.int/en/elibrary/74322-ifs-documentation-cy40r1-part-iv-physical-processes)
+17) ECMWF, (2014). IFS documentation—Cy40r1. Operational implementation 22 November 2013. Part IV: Physical processes. ECMWF, accessed November 2024. Available online at [ECMWF IFS Documentation CY40 Part IV](https://www.ecmwf.int/en/elibrary/74322-ifs-documentation-cy40r1-part-iv-physical-processes)
 > ECMWF Bulk Parameterization
   
-12) Large, W. G., & Yeager, S. G. (2009). The global climatology of an interannually varying air–sea flux data set. Climate Dynamics, 33(2–3), 341–364. https://doi.org/10.1007/s00382-008-0441-3
+18) Large, W. G., & Yeager, S. G. (2009). The global climatology of an interannually varying air–sea flux data set. Climate Dynamics, 33(2–3), 341–364. https://doi.org/10.1007/s00382-008-0441-3
 > NCAR Bulk Parameterization
 
-13) Andreas, E. L., Mahrt, L., & Vickers, D. (2015). An improved bulk air–sea surface flux algorithm, including spray‐mediated transfer. Quarterly Journal of the Royal Meteorological Society, 141(687), 642–654. https://doi.org/10.1002/qj.2424
+19) Andreas, E. L., Mahrt, L., & Vickers, D. (2015). An improved bulk air–sea surface flux algorithm, including spray‐mediated transfer. Quarterly Journal of the Royal Meteorological Society, 141(687), 642–654. https://doi.org/10.1002/qj.2424
 > Andreas Bulk Parameterization
 
 
